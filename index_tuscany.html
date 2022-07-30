@@ -10,9 +10,10 @@
 		<title>MR Photography</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="portfolio/assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="portfolio/assets/css/main.css" />
-		<link href="portfolio/assets/css/twentytwenty.css" rel="stylesheet" type="text/css" />
-
+		<!--[if lte IE 9]><link rel="stylesheet" href="portfolio/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="portfolio/assets/css/ie8.css" /><![endif]-->
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,9 +22,9 @@
 
 		  ga('create', 'UA-104117122-1', 'auto');
 		  ga('send', 'pageview');
+
 		</script>
 		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
 	</head>
 	<body>
 
@@ -45,56 +46,84 @@
 					</header>
 
 				<!-- Main -->
-				<div id="main">
-					<article class="thumb">
-						<a href="index_favourites.html" ><img src="portfolio/images/thumbs/fav.jpg" alt="Favourites" width="100%" /></a>
-						<h2>Personal Favourites</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_tuscany.html"    ><img src="portfolio/images/thumbs/tusc.jpg" alt="Tuscany" width="100%" /></a>
-						<h2>Tuscany</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_cinqueterre.html"><img src="portfolio/images/thumbs/cinque.jpg" alt="CinqueTerre" width="100%" /></a>
-						<h2>Cinque Terre</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_norway.html"     ><img  src="portfolio/images/thumbs/norw.jpg" alt="Norway"  width="100%" /></a>
-						<h2>Norway</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_lofoten.html"    ><img src="portfolio/images/thumbs/lofo.jpg" alt="Lofoten" width="100%" /></a>
-						<h2>Lofoten</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_iceland.html"    ><img src="portfolio/images/thumbs/ice.jpg" alt="Iceland" width="100%" /></a>
-						<h2>Iceland</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_china.html"      ><img  src="portfolio/images/thumbs/china.jpg"  alt="China"  width="100%" /></a>
-						<h2>China</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_hk.html"      ><img  src="portfolio/images/thumbs/hk.jpg"  alt="Hong Kong"  width="100%" /></a>
-						<h2>Hong Kong</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_scotland.html"      ><img  src="portfolio/images/thumbs/scotl.jpg"  alt="Scotland"  width="100%" /></a>
-						<h2>Scotland</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_kenya.html"      ><img  src="portfolio/images/thumbs/kenya.jpg"  alt="Kenya"  width="100%" /></a>
-						<h2>Kenya</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_wildlife.html"      ><img  src="portfolio/images/thumbs/wild.jpg"  alt="Wildlife"  width="100%" /></a>
-						<h2>Wildlife</h2>
-					</article>
-					<article class="thumb">
-						<a href="index_saudi.html"      ><img  src="portfolio/images/thumbs/saudi.jpg"  alt="Saudi"  width="100%" /></a>
-						<h2>Saudi Arabia</h2>
-					</article>
-				</div>
+					<div id="main">
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/01.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/01.jpg" alt="" /></a>
+							<h2>Cappella della Madonna di Vitaleta - 1</h2>
+							<p>Scenic chapel in Val d'Orcia, Tuscany.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/02.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/02.jpg" alt="" /></a>
+							<h2>Cappella della Madonna di Vitaleta - 2</h2>
+							<p>Seen from far away, standing alone in the Tuscanian countryside.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/03.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/03.jpg" alt="" /></a>
+							<h2>Podere Belvedere - 1</h2>
+							<p>Farmhouse in the middle of Tuscanian countryside in the early hours.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/06.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/06.jpg" alt="" /></a>
+							<h2>Podere Belvedere - 2</h2>
+							<p>Famous farmhouse from another angle.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/04.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/04.jpg" alt="" /></a>
+							<h2>Symmetry in nature</h2>
+							<p>My favourite hill covered in olive groves.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/05.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/05.jpg" alt="" /></a>
+							<h2>Purple sunset</h2>
+							<p>Dramatic colors at sunset in Tuscanian countryside.</p>
+						</article>
+
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/07.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/07.jpg" alt="" /></a>
+							<h2>Trees silhouette</h2>
+							<p>Line of trees with beautiful early morning sky.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/08.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/08.jpg" alt="" /></a>
+							<h2>Hills</h2>
+							<p>Stack of hills in Tuscanian countryside.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/09.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/09.jpg" alt="" /></a>
+							<h2>Red sunrise</h2>
+							<p>Another of Podere Belvedere during red sunrise.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/10.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/10.jpg" alt="" /></a>
+							<h2>Blue hours</h2>
+							<p>Cloudy night in Tuscanian countryside with waxing moon.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/11.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/11.jpg" alt="" /></a>
+							<h2>Silence</h2>
+							<p>A cross and five cypresses under clear starry night.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/12.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/12.jpg" alt="" /></a>
+							<h2>Pienza</h2>
+							<p>City's cathedral at night.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/13.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/13.jpg" alt="" /></a>
+							<h2>Tuscanian Milky Way</h2>
+							<p>One of most famous cypress field under the milky way.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/14.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/14.jpg" alt="" /></a>
+							<h2>Podere Belvedere - I am back</h2>
+							<p>Three years after my first trip to Val d'Orcia, this time the Podere is orange.</p>
+						</article>
+						<article class="thumb">
+							<a href="portfolio/images_tuscany/fulls/15.jpg" class="image"><img src="portfolio/images_tuscany/thumbs/15.jpg" alt="" /></a>
+							<h2>Poggio Covili</h2>
+							<p>Another farm house, famous for its long cypress lined lane.</p>
+						</article>
+					</div>
 
 				<!-- Footer -->
 					<footer id="footer" class="panel">
@@ -168,63 +197,13 @@
 
 			</div>
 
-			<!-- Scripts -->
+		<!-- Scripts -->
 			<script src="portfolio/assets/js/jquery.min.js"></script>
-			<script src="portfolio/assets/js/jquery.poptrox.min.js}"></script>
+			<script src="portfolio/assets/js/jquery.poptrox.min.js"></script>
 			<script src="portfolio/assets/js/skel.min.js"></script>
 			<script src="portfolio/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="portfolio/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="portfolio/assets/js/main.js"></script>
-			<script async defer data-pin-hover="true" data-pin-round="true" data-pin-save="false" src="//assets.pinterest.com/js/pinit.js"></script>
 
-			<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-			<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-			<script src="portfolio/assets/js/jquery.event.move.js"></script>
-			<script src="portfolio/assets/js/jquery.twentytwenty.js"></script>
 	</body>
-
-	<script>
-
-		$(window).load(function(){
-			$(".twentytwenty-container").twentytwenty();
-		});
-
-		$(window).load(function(){
-			$("#milkyway").twentytwenty({
-			before_label: 'Before', // Set a custom before label
-    		after_label: 'After', // Set a custom after label
-    		orientation: 'horizontal', // Orientation of the before and after images ('horizontal' or 'vertical')
-    		no_overlay: false, //Do not show the overlay with before and after
-    		click_to_move: true // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
-    		});
-
-    	// Mesure your images and divide by 2.
-		var imgWidth = $("#milkyway img").width()/2;
-
-		// On the container, apply a left offset of 50% (screen center) - minus half image width.
-		$("#milkyway").css({"position":"relative","left":"calc(50% - "+ imgWidth+ "px)"});
-
-		});
-
-
-		$(window).load(function(){
-			$("#sunrise").twentytwenty({
-			before_label: 'Before', // Set a custom before label
-    		after_label: 'After', // Set a custom after label
-    		orientation: 'horizontal', // Orientation of the before and after images ('horizontal' or 'vertical')
-    		no_overlay: false, //Do not show the overlay with before and after
-    		click_to_move: true // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
-    		});
-
-    	// Mesure your images and divide by 2.
-		var imgWidth = $("#sunrise img").width()/2;
-
-		// On the container, apply a left offset of 50% (screen center) - minus half image width.
-		$("#sunrise").css({"position":"relative","left":"calc(50% - "+ imgWidth+ "px)"});
-
-		});
-
-
-	</script>
-
-
 </html>
